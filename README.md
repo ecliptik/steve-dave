@@ -1,5 +1,7 @@
 # Tell 'Em Steve-Dave!
 
+Random Slack Status Update
+
 ![steve-dave](https://raw.githubusercontent.com/ecliptik/steve-dave/master/steve-dave.gif)
 
 [Docker](https://www.docker.com) container to automatically update [Slack](https://slack.com) status.
@@ -17,7 +19,7 @@ Create Slack Personal Token for workspace to auto-update
 ## Build
 
 ```
-docker build -t steve-dave
+docker build -t steve-dave .
 ```
 
 ## Run
