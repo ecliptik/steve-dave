@@ -31,7 +31,6 @@ def set_status(message, emoji)
   req = Net::HTTP::Post.new(uri.path)
   req.body = data
   res = https.request(req)
-  puts res.body
 end
 
 # Function to randomly choose when to update next between 4 and 24 hours
