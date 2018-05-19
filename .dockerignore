@@ -1,0 +1,4 @@
+*.gif
+README.md
+docker-compose.yml
+Dockerfile
