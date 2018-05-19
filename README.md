@@ -1,6 +1,4 @@
-# Tell 'Em Steve-Dave!
-
-Random Slack Status Update
+# Random Slack Status Update
 
 ![steve-dave](https://raw.githubusercontent.com/ecliptik/steve-dave/master/steve-dave.gif)
 
