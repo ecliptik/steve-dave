@@ -1,0 +1,8 @@
+version: '2'
+services:
+  steve-dave:
+    build:
+      context: .
+    restart: unless-stopped
+    environment:
+      - SLACK_PERSONAL_TOKEN=
