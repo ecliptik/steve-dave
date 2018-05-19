@@ -27,3 +27,9 @@ Run container passing the SLACK_PERSONAL_TOKEN generated in the Requirements ste
 ```
 docker run -it -e "SLACK_PERSONAL_TOKEN=xoxp-XXXXXXXXXXXXXXXXXXXXXX" steve-dave -d
 ```
+
+or with [docker-compose](https://docs.docker.com/compose/)
+
+```
+docker-compose up -d
+```
