@@ -4,5 +4,6 @@ services:
     build:
       context: .
     restart: unless-stopped
-    environment:
-      - SLACK_PERSONAL_TOKEN=
+    env_file: .env
+    stdin_open: true
+    tty: true
