@@ -12,9 +12,21 @@ statuses = ["Tell 'Em Steve-Dave!",
           "You know what ol' Jack Burton always says at a time like this?",
           "Sooner or later I rub everybody the wrong way.",
           "I think I'm a sofa...",
-          "faster than Walt Flanagan's dog...",
+          "Faster than Walt Flanagan's dog...",
           "That kid is back on the escalator again!",
-          "Wow! It's a schooner!"
+          "Wow! It's a schooner!",
+          "Do you want ants? This is how we get ants.",
+          "If you aim to cheat the devil, you owe him an offering.",
+          "Did you check your TCP/IP settings?",
+          "We're gonna need a bigger boat.",
+          "Open the pod bay doors, HAL.",
+          "I’m a leaf on the wind.",
+          "I am one with the Force, the Force is with me.",
+          "By Grabthar’s hammer, by the suns of Worvan, you shall be avenged.",
+          "Jobs was a poser. He didn't even write code.",
+          "Everything is awesome!",
+          "How's that for a slice of fried gold?",
+          "That's some catch, that Catch-22"
 ]
 
 # Set slack status using legacy api
@@ -63,8 +75,8 @@ begin
     set_status(status, emoji)
 
     #Sleep for random minutes to update again
-    sleepTime = randomSleep
-    puts "Sleeping for #{sleepTime} minutes..."
+    sleepTime = randomSleep * 60
+    puts "Sleeping for #{sleepTime} seconds..."
     sleep(sleepTime)
   end
 end
