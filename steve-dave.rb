@@ -28,7 +28,9 @@ statuses = ["Tell 'Em Steve-Dave!",
           "How's that for a slice of fried gold?",
           "That's some catch, that Catch-22",
           "That's just what I need – to get advice from someone who never saw Shane.",
-          "This Is The Way"
+          "This Is The Way",
+          "Sometimes I doubt your commitment to Sparkle Motion",
+          "I'm not even suppose to be here today!"
 ]
 
 # Set slack status using legacy api
