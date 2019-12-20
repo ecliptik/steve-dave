@@ -73,7 +73,7 @@ begin
     #Update slack status
     puts "Setting status: #{status}"
     #Optional emoji
-    emoji = ":eks:"
+    emoji = ":fargate:"
     set_status(status, emoji)
 
     #Sleep for random minutes to update again
