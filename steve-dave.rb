@@ -26,7 +26,10 @@ statuses = ["Tell 'Em Steve-Dave!",
           "Jobs was a poser. He didn't even write code.",
           "Everything is awesome!",
           "How's that for a slice of fried gold?",
-          "That's some catch, that Catch-22"
+          "That's some catch, that Catch-22",
+          "Mandrake, have you never wondered why I drink only distilled water, or rain water, and only pure-grain alcohol?",
+          "I watched C-beams glitter in the dark near the Tannhäuser Gate",
+          "Make it so"
 ]
 
 # Set slack status using legacy api
