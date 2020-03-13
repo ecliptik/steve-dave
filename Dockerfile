@@ -1,4 +1,4 @@
-FROM ruby:2.5-slim
+FROM ruby:2.6-slim
 LABEL maintainer="Micheal Waltz <ecliptik@gmail.com>"
 
 #Set timezone to US/Pacific
