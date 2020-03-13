@@ -29,7 +29,11 @@ statuses = ["Tell 'Em Steve-Dave!",
           "That's some catch, that Catch-22",
           "Mandrake, have you never wondered why I drink only distilled water, or rain water, and only pure-grain alcohol?",
           "I watched C-beams glitter in the dark near the Tannhäuser Gate",
-          "Make it so"
+          "Make it so",
+          "That's just what I need – to get advice from someone who never saw Shane.",
+          "This Is The Way",
+          "Sometimes I doubt your commitment to Sparkle Motion",
+          "I'm not even suppose to be here today!"
 ]
 
 # Set slack status using legacy api
@@ -65,8 +69,6 @@ begin
     case day
     when "Thursday"
       status = "It must be Thursday. I never could get the hang of Thursdays."
-    when "Friday"
-      status = "It's Friday"
     else
       status = statuses.sample
     end
@@ -74,7 +76,7 @@ begin
     #Update slack status
     puts "Setting status: #{status}"
     #Optional emoji
-    emoji = ":docker:"
+    emoji = ":fargate:"
     set_status(status, emoji)
 
     #Sleep for random minutes to update again
