@@ -1,5 +1,5 @@
-FROM ruby:2.5-slim
-LABEL maintainer="Micheal Waltz <ecliptik@gmail.com>"
+FROM public.ecr.aws/docker/library/ruby:2.7-slim
+LABEL maintainer="Micheal Waltz <dockerfiles@ecliptik.com>"
 
 #Set timezone to US/Pacific
 RUN cp /usr/share/zoneinfo/US/Pacific /etc/localtime
